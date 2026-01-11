@@ -44,3 +44,4 @@ git clone https://github.com/<your-username>/ecomzy-react.git
 cd ecomzy-react
 npm install
 npm run dev
+```

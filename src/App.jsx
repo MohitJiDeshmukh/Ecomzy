@@ -14,9 +14,7 @@ function App() {
       text-gray-900 dark:text-gray-100
     "
     >
-     
-        <Navbar />
-     
+      <Navbar />
 
       <main className="pt-4">
         <Routes>

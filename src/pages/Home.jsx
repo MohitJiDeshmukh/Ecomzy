@@ -45,7 +45,7 @@ const Home = () => {
       .filter((p) =>
         searchText.trim() === ""
           ? true
-          : p.title.toLowerCase().includes(searchText.toLowerCase())
+          : p.title.toLowerCase().includes(searchText.toLowerCase()),
       )
       .sort((a, b) => {
         if (sortOrder === "lowToHigh") return a.price - b.price;

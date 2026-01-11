@@ -1,14 +1,9 @@
 @import "tailwindcss";
 
 @custom-variant dark (&:where(.dark, .dark *));
-  
-  body {
-    font-family: '"Inter"', sans-serif;
-    min-height: 100vh;
-    background-color: #fff;
-  }
 
-
-
-  
-  
+body {
+  font-family: '"Inter"', sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}

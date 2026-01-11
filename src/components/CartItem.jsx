@@ -35,7 +35,8 @@ const CartItem = ({ item }) => {
       <div className="flex flex-col justify-between flex-1">
         <div>
           <h1 className="font-semibold text-lg truncate">
-            {item.title.split(" ").slice(0, 7).join(" ") + "..."}</h1>
+            {item.title.split(" ").slice(0, 7).join(" ") + "..."}
+          </h1>
 
           <p className="text-sm text-gray-600 dark:text-gray-400 mt-1">
             {item.description.split(" ").slice(0, 12).join(" ")}...
